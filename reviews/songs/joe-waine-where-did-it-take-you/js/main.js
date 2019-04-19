@@ -20,4 +20,13 @@ $('.facebookshare').click(function(){
     return false;
   });
 
-  
+
+
+
+
+
+
+$('.button.condensed-playback-button').click(function(){
+  var audio = new Audio('where.mp3');
+audio.play();
+});
