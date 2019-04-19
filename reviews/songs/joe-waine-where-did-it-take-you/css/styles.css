@@ -72,6 +72,11 @@
 
 @media only screen and (max-width: 768px) {
 
+    .review-detail__featured-tracks {
+        margin-bottom:30px;
+    }
+
+
 
     .primary-nav__link.primary-nav__link--fest.primary-nav__link--chicago,
     .primary-nav__link{
