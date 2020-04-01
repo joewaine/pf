@@ -22,11 +22,17 @@ $('.facebookshare').click(function(){
 
 
 
-
-
-
-
 $('.button.condensed-playback-button').click(function(){
-  var audio = new Audio('where.mp3');
-audio.play();
+  if($(this).hasClass('playing')){
+  var audio = new Audio('fabio.mp3');
+audio.pause(); 
+$(this).css('border','5px solid red');
+$(this).removeClass('playing')
+}else{
+  var audio = new Audio('fabio.mp3');
+  audio.play();
+  $(this).css('border','5px solid green');
+  $(this).addClass('playing')
+
+}
 });
