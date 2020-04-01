@@ -1,0 +1,126 @@
+.single-album-tombstone__review-title {
+    font-family: "Tiempos Headline", "Tiempos";
+    font-size: 4.8rem;
+    line-height: 1.25;
+    font-weight: 700 ;
+    font-style: italic;
+    margin: 0;
+
+    font-family: 'Tiempos Headline Black Italic';
+    font-weight: normal;
+
+}
+
+
+
+
+
+.share-module__drawer{
+    display: none;
+}
+
+
+.pub-date,
+.genre-list__link,
+.authors-detail__display-name,
+.primary-nav__link,
+.score{
+    font-family: 'GT-Walsheim-Pro-Regular.woff';
+  }
+
+
+*,
+  .authors-detail__item span,
+.authors-detail__title,
+.review-detail__abstract p{
+        font-family: 'Walsh-Reg';
+      }
+
+
+      .contents.dropcap p,
+      .contents.dropcap p a,
+      .contents.dropcap p a em{
+        font-family: 'Tiempos Headline Light';
+    }
+    
+
+
+      .artist-links.artist-list.single-album-tombstone__artist-links li{
+        font-family: 'Walsh-Reg';
+        color: #1a1a1a;
+        font-size: 36px;
+      }
+
+
+      .video-player{
+          margin-bottom: 0;
+      }
+
+
+
+      .review-detail__featured-tracks {
+        margin-bottom: 0;
+    }
+
+
+
+
+.hwm-w{
+    height: 370px !important;
+    width: 100% !important;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .review-detail__featured-tracks {
+        margin-bottom:30px;
+    }
+
+
+
+    .primary-nav__link.primary-nav__link--fest.primary-nav__link--chicago,
+    .primary-nav__link{
+
+color: transparent !important;
+    }
+  
+    .primary-nav__link.primary-nav__link--fest.primary-nav__link--chicago{
+        display: none;
+    }
+
+
+    .subpanel-triggers {
+        position: absolute;
+        right: 0;
+        top: 14px !important;
+        margin: 0;
+        height: 53% !important;
+    }
+
+
+.primary-nav{
+    height: 70px;
+}
+
+
+.share-module li {
+    -webkit-transition: all .125s ease-in-out;
+    transition: all .125s ease-in-out;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 648px) {
+
+
+    .hwm-w{
+height: 300px !important;
+    width: 100% !important;
+margin-top: 20px;
+    }
+}
